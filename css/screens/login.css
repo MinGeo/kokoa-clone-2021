@@ -35,10 +35,10 @@
     color:rgba(0,0,0,0.4);
 }
 #login-form input:focus {
-    border-color: var(--yellow);
+    border-color: #c5ed8c;
 }
 #login-form input[type="submit"]{
-    background-color:  var(--yellow);
+    background-color:  #c5ed8c;
     cursor:pointer;
     padding: 20px;
     border-radius: 5px;

@@ -1,3 +1,21 @@
+#moremore-screen .status-bar,
+#moremore-screen .screen-header{
+    top:0;
+    position:fixed;
+    width:100%;
+    box-sizing: border-box;
+    background-color: white;
+}
+#moremore-screen .status-bar{
+    z-index:2;
+}
+#moremore-screen .screen-header{
+    top:10px;
+    z-index:1;
+}
+#moremore-screen .main__screen{
+    margin-top:120px;
+}
 .more-screen .icon-row{
     margin-top: 35px;
 }
@@ -19,10 +37,9 @@
     flex-direction: column;
     align-items: center;
 }
-.more-suggestions__icon-image{
+.more-suggestions__icon-image >a >img{
     width: 60px;
     height:60px;
-    background-color: var(--yellow);
     border-radius: 10px;
     display:flex;
     justify-content: center;

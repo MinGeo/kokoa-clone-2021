@@ -1,3 +1,21 @@
+#settings-screen .status-bar,
+#settings-screen .alt-header{
+    top:0;
+    position:fixed;
+    width:100%;
+    box-sizing: border-box;
+    background-color: white;
+}
+#settings-screen .status-bar{
+    z-index:2;
+}
+#settings-screen .alt-header{
+    top:10px;
+    z-index:1;
+}
+#settings-screen .main__screen{
+    margin-top:120px;
+}
 .settings__setting{
     padding: 20px 0;
     border-bottom: 1px solid rgba(0,0,0,0.1);

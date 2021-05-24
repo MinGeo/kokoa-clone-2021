@@ -3,6 +3,7 @@
 }
 body {
   width: 100%;
+  box-sizing: border-box;
 }
 #friends-screen .status-bar,
 #friends-screen .screen-header {

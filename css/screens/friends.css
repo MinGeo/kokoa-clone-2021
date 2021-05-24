@@ -1,7 +1,9 @@
 .friends__screen__channel .user-component {
   margin-bottom: 30px;
 }
-
+body {
+  width: 100%;
+}
 #friends-screen .status-bar,
 #friends-screen .screen-header {
   top: 0;

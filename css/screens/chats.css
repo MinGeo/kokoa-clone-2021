@@ -19,3 +19,6 @@
 #chats-screen .main__screen{
     margin-top:120px;
 }
+#chats-screen .user-component__text {
+    width: 260px;
+}

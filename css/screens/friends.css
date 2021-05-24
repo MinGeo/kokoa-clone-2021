@@ -1,70 +1,69 @@
-.friends__screen__channel .user-component{
-    margin-bottom: 30px;
-    
+.friends__screen__channel .user-component {
+  margin-bottom: 30px;
+}
+#friends-screen {
+  width: 100%;
 }
 #friends-screen .status-bar,
-#friends-screen .screen-header{
-    top:0;
-    position:fixed;
-    width:100%;
-    box-sizing: border-box;
-    background-color: white;
+#friends-screen .screen-header {
+  top: 0;
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: white;
 }
-#friends-screen .status-bar{
-    z-index:2;
+#friends-screen .status-bar {
+  z-index: 2;
 }
-#friends-screen .screen-header{
-    top:10px;
-    z-index:1;
+#friends-screen .screen-header {
+  top: 10px;
+  z-index: 1;
 }
-#friends-display-link{
-    
-    text-align: center;
-    display: block;
-    background-color: #fafafa;
-    padding: 15px 0px;
-    font-size: 18px;
-    margin-bottom: 10px;
-    margin-top:120px;
+#friends-display-link {
+  text-align: center;
+  display: block;
+  background-color: #fafafa;
+  padding: 15px 0px;
+  font-size: 18px;
+  margin-bottom: 10px;
+  margin-top: 120px;
 }
-#friends-display-link i{
-    color: rgba(0, 0, 0, 0.3);
-
+#friends-display-link i {
+  color: rgba(0, 0, 0, 0.3);
 }
-.friends__screen{
-    padding:0px var(--horizontal-space);
+.friends__screen {
+  padding: 0px var(--horizontal-space);
 }
-.friends__screen__channel{
-    margin-top: 25px;
-    border-top: var(--main-border);
-    padding-top:15px;
+.friends__screen__channel {
+  margin-top: 25px;
+  border-top: var(--main-border);
+  padding-top: 15px;
 }
-.friends__screen__channel-header{
-    margin-bottom: 30px;
-    display: flex;
-    justify-content: space-between;
-    color: rgba (0,0,0,0.5);
+.friends__screen__channel-header {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  color: rgba (0, 0, 0, 0.5);
 }
-#splash-screen{
-    position: absolute;
-    height: 100vh;
-    width: 100vw;
-    top:0;
-    z-index:5;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size:128px;
-    animation: hideSplashScreen 0.4s ease-in-out forwards;
-    animation-delay:1s;
-    
+#splash-screen {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  z-index: 5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 128px;
+  animation: hideSplashScreen 0.4s ease-in-out forwards;
+  animation-delay: 1s;
 }
-@keyframes hideSplashScreen{
-    from {
-        opacity: 1;
-    }
-    to {
-        opacity: 0;
-        visibility: hidden;
-    }
+@keyframes hideSplashScreen {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
 }

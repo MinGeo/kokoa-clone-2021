@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
 @import "reset.css";
 @import "variables.css";
 /*Components*/
@@ -18,11 +18,11 @@
 @import "screens/more.css";
 @import "screens/settings.css";
 @import "screens/chat.css";
-body{
-    color: #2e363e;
-    font-family: 'Open Sans', sans-serif;
-    height: 1000vh;
+body {
+  color: #2e363e;
+  font-family: "Open Sans", sans-serif;
+  height: 1000vh;
 }
-.main__screen{
-    padding:0px var(--horizontal-space);
+.main__screen {
+  padding: 0px var(--horizontal-space);
 }

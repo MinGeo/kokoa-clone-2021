@@ -18,6 +18,7 @@
   z-index: 1;
 }
 #friends-display-link {
+  width: 100%;
   text-align: center;
   display: block;
   background-color: #fafafa;
@@ -30,6 +31,7 @@
   color: rgba(0, 0, 0, 0.3);
 }
 .friends__screen {
+  width: 100%;
   padding: 0px var(--horizontal-space);
 }
 .friends__screen__channel {
